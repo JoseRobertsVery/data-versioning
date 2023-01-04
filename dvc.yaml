@@ -1,8 +1,8 @@
 stages:
   prepare:
-    cmd: python src/prepare.py data/airlinedelaycauses_DelayedFlights.csv
+    cmd: python src/prepare.py data/data.xml
     deps:
-    - data/airlinedelaycauses_DelayedFlights.csv
+    - data/data.xml
     - src/prepare.py
     params:
     - prepare.seed
